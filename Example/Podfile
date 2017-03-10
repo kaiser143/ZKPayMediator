@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'ZKPayMediator_Example' do
-    pod 'ZKPayMediator', :path => '../', :subspecs => ['AliPay', 'WXPay']
+    pod 'ZKPayMediator', :path => '../'
 
   target 'ZKPayMediator_Tests' do
     inherit! :search_paths

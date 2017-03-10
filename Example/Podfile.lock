@@ -4,6 +4,10 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - ZKPayMediator (0.1.0):
+    - ZKPayMediator/AliPay (= 0.1.0)
+    - ZKPayMediator/Base (= 0.1.0)
+    - ZKPayMediator/WXPay (= 0.1.0)
   - ZKPayMediator/AliPay (0.1.0):
     - ZKPayMediator/Base
   - ZKPayMediator/Base (0.1.0)
@@ -12,8 +16,7 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - ZKPayMediator/AliPay (from `../`)
-  - ZKPayMediator/WXPay (from `../`)
+  - ZKPayMediator (from `../`)
 
 EXTERNAL SOURCES:
   ZKPayMediator:
@@ -21,8 +24,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  ZKPayMediator: 0c675a864a738c7d105c4204c7dd18b297501fad
+  ZKPayMediator: 0ecf0bc1b404461d3d243f058da331e40ec3d021
 
-PODFILE CHECKSUM: 2d3d21e8a11189fce9b6862229d2922ca38bd2fb
+PODFILE CHECKSUM: 2b7b1f0dc274fcba364428f58bdb2d2c39992ee4
 
 COCOAPODS: 1.2.0

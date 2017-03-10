@@ -2,7 +2,7 @@
   "name": "ZKPayMediator",
   "version": "0.1.0",
   "summary": "A short description of ZKPayMediator.",
-  "homepage": "https://git.oschina.net/kaiser143/ZKPayMediator",
+  "homepage": "https://github.com/kaiser143/ZKPayMediator",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -11,7 +11,7 @@
     "Kaiser": "deyang143@126.com"
   },
   "source": {
-    "git": "https://git.oschina.net/kaiser143/ZKPayMediator.git",
+    "git": "https://github.com/kaiser143/ZKPayMediator.git",
     "tag": "0.1.0"
   },
   "requires_arc": true,
