@@ -1,0 +1,6 @@
+framework module Pods_ZKPayMediator_Tests {
+  umbrella header "Pods-ZKPayMediator_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

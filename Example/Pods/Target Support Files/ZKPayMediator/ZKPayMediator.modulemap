@@ -1,0 +1,6 @@
+framework module ZKPayMediator {
+  umbrella header "ZKPayMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}

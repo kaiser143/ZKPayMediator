@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZKPayMediator_Example' do
+    pod 'ZKPayMediator', :path => '../', :subspecs => ['AliPay', 'WXPay']
+
+  target 'ZKPayMediator_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
