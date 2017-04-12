@@ -95,7 +95,7 @@
     
     if (completionHandler) {
         NSError *error = [NSError errorWithDomain:ZKPayErrorDomain code:err userInfo:userInfo];
-        completionHandler(error == 9000 ? ZKResponseStatusSuccess : ZKResponseStatusError , error);
+        completionHandler(error.code == 9000 ? ZKResponseStatusSuccess : ZKResponseStatusError , error);
     }
 }
 
