@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ZKPayMediator'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of ZKPayMediator.'
   s.homepage         = 'https://github.com/kaiser143/ZKPayMediator'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
