@@ -19,6 +19,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 WechatSDK v1.7.5
+<br>
 Alipay v15.2.0
 
 
@@ -28,14 +29,11 @@ ZKPayMediator is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "ZKPayMediator"
+pod 'ZKPayMediator'
 
 单独支持微信或者支付宝
-pod "ZKPayMediator", :subspecs => ['WXPay']
-pod "ZKPayMediator", :subspecs => ['AliPay']
-
-或者一起支持
-pod "ZKPayMediator", :subspecs => ['WXPay', 'AliPay']
+pod 'ZKPayMediator', :subspecs => ['WXPay']
+pod 'ZKPayMediator', :subspecs => ['AliPay']
 ```
 
 ## Author
