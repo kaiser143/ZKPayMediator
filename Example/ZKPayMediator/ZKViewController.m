@@ -60,7 +60,7 @@
 
 - (void)didTappedAlipayButton:(UIButton *)sender {
     //服务端下发 （这个信息有可能已经失效）
-    NSString *sign = @"partner=\"2088811995952100\"&seller_id=\"pc@davebella.com\"&out_trade_no=\"SO16051543065428\"&subject=\"戴维贝拉支付\"&body=\"戴维贝拉订单支付,订单号：SO16051543065428\"&total_fee=\"149.0\"&notify_url=\"http://api.kkkd.com/pay/notify/alipay/app\"&service=\"mobile.securitypay.pay\"&payment_type=\"1\"&_input_charset=\"utf-8\"&it_b_pay=\"10079m\"&sign=\"A40s8d9xJABQtMh9vNE%2BbI0uCpiBOCLClnc54qwX2tgL9ZPFAUZKRzhLHzNuvL276P6uXAbYvGCP1H7x6Xhtb5CdnK%2FiqgO3HXqQVdd4KMHbATcBgxk%2FkTch%2Bis%2BicspSaQLbRLw6OkIkGR%2FYbyfvbVMDhdypmsmztq7FK5XEdw%3D\"&sign_type=\"RSA\"";
+    NSString *sign = @"service=\"mobile.securitypay.pay\"&seller_id=\"17773486446@163.com\"&payment_type=\"1\"&partner=\"2088421933747080\"&_input_charset=\"utf-8\"&subject=\"快送\"&total_fee=\"5.00\"&notify_url=\"http://api.kuaisongok.com/pay/notify_url.htm\"&body=\"快送消费\"&it_b_pay=\"15m\"&out_trade_no=\"561492398385108\"&sign=\"2XzAdIGSDLFs2LUgzYDT89Uw033N1f0CPtX1aSPgKrNQ7CQEVJ%2BHLtmI05ZBXepp7IaAjN0%2BCIyac%2BB%2BM%2FAr9fbEaQ9J1smxguEg5uvRQ8yjJ7yCjf8HQmlMWdMMB8RFevIfTHM1miOFxTzM67efCdUuPXoo1nG3%2FIhMYxBeZGI%3D\"&sign_type=\"RSA\"";
     [[ZKPayMediator sharedInstance] scheduleAliPayOrder:@{@"sign": sign} scheme:@"test" completionHandler:^(ZKResponseStatus status, NSError *error) {
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:nil
                                                             message:(status == ZKResponseStatusSuccess ? @"支付成功" : error.description)
