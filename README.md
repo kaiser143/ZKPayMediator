@@ -18,6 +18,9 @@ ZKPayMediator
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+WechatSDK v1.7.5
+Alipay v15.2.0
+
 
 ## Installation
 
